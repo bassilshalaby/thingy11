@@ -1,0 +1,12 @@
+background(0, 0, 0);
+     draw = function () {
+     strokeWeight(50);
+     stroke(mouseX,mouseY,mouseY);
+     fill(mouseX, mouseY, mouseX);
+     if (mouseIsPressed) {
+         line(mouseX,mouseY,pmouseX,pmouseY);
+     }
+    
+
+   
+     };
